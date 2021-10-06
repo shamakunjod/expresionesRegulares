@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>expresiones regulares</title>
+</head>
+
+<body>
+    <div class="container">        
+        <p>Clave a verificar: <input type="text" id="clave"></p>
+        <p>Expresion regular: <input type="text" id="expresion" value="^[A-Z]{1}[0-9]{3}[a-z]{3}[\W|_]{3}"></p>
+        <button onclick="validar();">validar</button>
+        <p id="respuesta">aun no evalua una clave</p>
+    </div>
+    <p id="presentadopor" >presentado por: Juan Carlos Ariza Cantillo,Ray Rogers Rodriguez Varela, Alfredo Mattos De Lavalle, Daider Jafeth Ebratt Pedraza</p>   
+    <script src="js/app.js"></script>
+</body>
+</html>
